@@ -43,19 +43,16 @@
 
 12. RDS and database types
 13. RDS Pricing
-14. Other RDS Optional Services
-15. Other database Services
+14. Other database Services
 
-16. Database Migration Tools
+15. Database Migration Tools
     - AWS DMS
     - AWS SCT
 
 #### AWS network services
 
-17. Edge Services
-
-    - CloudFront
-    - Global Accelerator
+16. CloudFront
+17. Global Accelerator
 
 #### AWS storage services
 
