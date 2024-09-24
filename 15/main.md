@@ -6,9 +6,11 @@ DMS 協助使用者把資料庫遷移到 AWS 的資料庫服務上，像是把 M
 
 ## 同質資料（Homogeneous）和異質資料（Heterogeneous）遷移
 
-DMS 遷移分為同質資料遷移和異質資料遷移。同質資料遷移是指像 MySQL 遷移到 RDS For MySQL 這樣同種資料庫間的遷移，異質資料庫是指像從 Oracle 資料庫到開源資料庫的資料庫遷移。
+DMS 遷移分為同質資料遷移和異質資料遷移。同質資料遷移是指像 MySQL 遷移到 RDS For MySQL 這樣同種資料庫間的遷移，異質資料庫是指像從 Oracle 資料庫到開源資料庫的資料庫遷移，彼此因為資料庫的不同，所以稱為異質資料遷移，需要先做 Schema Conversion，才能開始做資料遷移。
 
 ## DMS 相關元件
+
+下圖是 DMS 中的相關元件運作圖
 
 ![img](https://docs.aws.amazon.com/images/dms/latest/userguide/images/datarep-intro-rep-instance1.png)
 
