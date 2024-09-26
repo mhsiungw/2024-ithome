@@ -1,0 +1,5 @@
+How endpoint weights work to manage traffic volume
+https://docs.aws.amazon.com/global-accelerator/latest/dg/about-endpoints-endpoint-weights.html
+
+Add a standard endpoint
+https://docs.aws.amazon.com/global-accelerator/latest/dg/about-endpoints-adding-endpoints.html
