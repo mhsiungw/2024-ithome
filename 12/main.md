@@ -16,8 +16,8 @@ RDS 是 Amazon 提供的資料庫服務，協助使用者更輕鬆的設定、�
 
 ## When to use EC2 hosted databases or AWS RDS?
 
-既然在 EC2 上，我們也能夠自己部署資料庫，那我們在什麼樣的情況才需要考慮使用 RDS 呢？
-RDS 除了提供 DB Instance 讓使用者可以儲存與獲取資料外，還提供了下列但不限於下列的服務：
+既然我們也能夠自己在 EC2 上部署資料庫，那在什麼樣的情況才需要考慮使用 RDS 呢？
+RDS 除了提供 DB Instance 讓使用者可以儲存與獲取資料外，還提供下列服務：
 
 1. Managed automated backups
    RDS 每日依照 Region 會自動地在不同時間點執行資料庫備份，並儲存在 S3 一段設定的時間，你可以用這些「資料庫快照」重新創建資料庫，取回資料。
