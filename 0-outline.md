@@ -56,21 +56,22 @@
 
 #### AWS storage services
 
-18. Amazon S3 and Storage Classes
-19. Other S3 Optional Services
+18. Amazon S3
+19. Amazon S3 Storage Classes
+20. Other S3 Optional Services
 
-20. Block Storage Solutions
+21. Block Storage Solutions
 
     - Amazon EBS
     - Instance Store
 
-21. File Services and Cached File Systems
+22. File Services and Cached File Systems
 
     - Amazon EFS
     - Amazon FSx
     - AWS Storage Gateway
 
-22. AWS AI/ML services and AWS analytics services
+23. AWS AI/ML services and AWS analytics services
 
 ###
 
