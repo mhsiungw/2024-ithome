@@ -4,16 +4,16 @@
 
 EC2 是一個在雲端上提供運算資源的 Web Service，運算資源是如電腦或手機設備中負責處理運算或儲存資料的資源，像是記憶體或核心。
 
-## Instance Types
+## Instance 類型
 
-EC2 依照使用目的分為不一樣的 Instance Type，我們也可以從命名中知道 Instance 的目的。
+EC2 依照使用目的分為不一樣的 Instance 類型，我們也可以從命名中知道 Instance 的目的。
 
 Instance 的名字以逗點隔開分為兩個部分，前半部 Instance Family 與後半部 Instance Size，
 Instance Family 分為 Series、Generation 與 Size，以 T3a.nano 來說，T 屬於 Burstable Performance Instances 系列，3 代表第三代，a 則代表處理器是 AMD，在同一個 Instance Family 中，還會以 Instance Size 區分出運算資源配比的不同，nano 就是 T3a Family 的其中一種 Instance Size。
 
 https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-type-names.html#:~:text=Instance%20types%20are%20named%20based,the%20options%2C%20for%20example%20gn%20.
 
-AWS 依照不同的 Instance Family 分為不同的 Instance Types
+AWS 依照不同的 Instance Family 分為不同的 Instance 類型
 
 ### General Purpose
 

@@ -45,6 +45,6 @@ HDD 適合需要同時處理大量資料的場景（throughput intensive workloa
 
 ![img](./ec2-instance-store-setting.jpg)
 
-每個 EC2 Instance Type 都支援以 EBS 的方式儲存資料，但有一些 EC2 Instance Type 也支援 Instance Store，但使用 Instance Store 儲存的資料會在 Instance 停止時消失，所以不適合儲存重要的資料。
+每個 EC2 Instance 類型都支援以 EBS 的方式儲存資料，但有一些 EC2 Instance 類型也支援 Instance Store，但使用 Instance Store 儲存的資料會在 Instance 停止時消失，所以不適合儲存重要的資料。
 
 使用 Instance Store 不需要計費。

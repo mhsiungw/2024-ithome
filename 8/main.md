@@ -16,7 +16,7 @@ Dedicated Instance 讓你可以獨自享有硬體，不必與其他帳戶共享�
 ### Dedicated Host
 
 Dedicatd Host 與 Dedicated Instance 一樣，讓你可以獨自享有硬體，且 Instance 重啟時，會在同一台機器上。
-在定價上，因為使用者是向 AWS 租借一整台機器，會以 Instance Type 的方式計價，像是 t3 一個小時的費用就是 $11.489 美金，且最多可以跑 192 個 t3.nano Instances。
+在定價上，因為使用者是向 AWS 租借一整台機器，會以 Instance 類型的方式計價，像是 t3 一個小時的費用就是 $11.489 美金，且最多可以跑 192 個 t3.nano Instances。
 
 如果以 Shared Tenancy On-Demand Rate 計算，$11.489 美金一個小時可以跑 2209 台 Instances，這樣看來，
 除非有必要，才需要選擇 Dedicated Host。
@@ -46,4 +46,4 @@ Spot Instance 讓你可以透過使用 AWS 目前未被使用的運算資源，�
 
 ### Reserved Instances
 
-Reserved Instances 與 Savings Plans 一樣提供高達 72% 的折扣，但不一樣的是，這邊需要綁定特定的 Instance Type，所以提供比 Savings Plans 更少的彈性。
+Reserved Instances 與 Savings Plans 一樣提供高達 72% 的折扣，但不一樣的是，這邊需要綁定特定的 Instance 類型，所以提供比 Savings Plans 更少的彈性。
