@@ -99,3 +99,9 @@
 ### resources
 
 - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html
+
+## 雲端服務模板
+
+1. What does it do?
+2. Terms
+3. Pricing
