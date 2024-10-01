@@ -75,20 +75,20 @@
 
 ###
 
-23. cloud, hybrid, on-premises deployment models
-24. connectivity options AWS VPN, AWS Direct
+24. cloud, hybrid, on-premises deployment models
+25. connectivity options AWS VPN, AWS Direct
     Connect, public internet
 
 ## 安全性和合規性
 
-25. shared responsibility model
+26. shared responsibility model
 
     - Describing how AWS responsibilities and customer responsibilities can shift,
       depending on the service used (for example, Amazon RDS, AWS Lambda,
       Amazon EC2)
 
-26. AWS compliance and governance concepts
-27. IAM
+27. AWS compliance and governance concepts
+28. IAM
     - Importance of protecting the AWS root user account
     - Defining groups, users, custom policies, and managed policies in compliance with the principle of least privilege
     - Understanding access keys, password policies, and credential storage
