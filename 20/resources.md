@@ -9,3 +9,6 @@ https://aws.amazon.com/s3/features/batch-operations/
 
 Amazon S3 Storage Lens
 https://aws.amazon.com/s3/storage-lens/
+
+Amazon S3 Encrypts New Objects By Default
+https://aws.amazon.com/blogs/aws/amazon-s3-encrypts-new-objects-by-default/

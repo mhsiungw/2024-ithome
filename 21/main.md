@@ -4,7 +4,7 @@
 
 ## Elastic Block Storage (EBS)
 
-![img](./ec2-ebs-setting.jpg)
+![img](https://github.com/mhsiungw/2024-ithome/blob/main/21/ec2-ebs-setting.jpg?raw=true)
 EBS 是為 EC2 設計的區塊儲存服務，儲存在裡面的資料不會因為 EC2 停止而遺失。
 
 EBS 主要分為兩個磁碟區類型
@@ -29,11 +29,11 @@ HDD 適合需要同時處理大量資料的場景（throughput intensive workloa
 
 #### Recycle Bin for EBS Snapshots
 
-為了防止誤刪 Snapshot 導致不可逆的結果，你可以為 Snapshot 設定 Retention Rule，設定 Snapshot 刪除了保留時間。
+為了防止誤刪 Snapshot 導致不可逆的結果，你可以為 Snapshot 設定 Retention Rule，設定 Snapshot 刪除的保留時間。
 
-![img](./ebs-recycle.jpg)
+![img](https://github.com/mhsiungw/2024-ithome/blob/main/21/ebs-recycle.jpg?raw=true)
 
-#### Amazon EBS Fast Snapshot Restor (FSR)
+#### Amazon EBS Fast Snapshot Restore (FSR)
 
 從 Snapshot 創建 EBS Volume 時，對於第一次的取用會有延遲的問題，你可以透過設定 FSR 降低延遲問題。FSR 依照小時計費。
 
@@ -43,8 +43,8 @@ HDD 適合需要同時處理大量資料的場景（throughput intensive workloa
 
 ## Instance Store
 
-![img](./ec2-instance-store-setting.jpg)
+![img](https://github.com/mhsiungw/2024-ithome/blob/main/21/ec2-instance-store-setting.jpg?raw=true)
 
 每個 EC2 Instance 類型都支援以 EBS 的方式儲存資料，但有一些 EC2 Instance 類型也支援 Instance Store，但使用 Instance Store 儲存的資料會在 Instance 停止時消失，所以不適合儲存重要的資料。
 
-使用 Instance Store 不需要計費。
+使用 Instance Store 不需額外的費用。
